@@ -1,0 +1,153 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2014a3;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.main-menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+
+}
+
+.main-menu ul li {
+    margin-right: 15px;
+}
+
+.main-menu ul li a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: #fecb00;
+}
+
+.main-menu ul li a:hover {
+    background-color: #ff9500;
+}
+.main-menu img{
+    border-radius: 30px;
+}
+
+
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+ 
+  h1{
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    font-size: 18px;
+    }
+h2{
+    color: blue;
+    font-family: "Alfa Slab One", serif;
+    
+}
+
+    p{
+        font-family: "Caveat", cursive;
+    }
+    
+.left-column {
+    width: 30%;
+    border-radius: 10px;
+    margin-right: 2px;
+  }
+
+  .left-column ul li{ 
+    margin: 80px 0;
+  }
+
+  section{
+    border-style: ridge;
+  }
+  
+  .right-column {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Ajusta el número de columnas según sea necesario */
+    gap: 20px;
+    border-style: ridge;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+  .item {
+    text-align: center;
+    width: 550px;
+  }
+ 
+img{
+    border-radius: 100%;
+}
+
+.menu2 ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    font-family: "Caveat", cursive;
+}
+
+.menu2 ul li {
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.menu2 ul li a {
+    text-decoration: none;
+    color: #0150cf;
+    font-weight: bold;
+}
+
+
+
+
+  
+footer img{
+    border-radius: 50px;
+    max-width: 150px; 
+    float: right;
+    justify-content: flex-end;
+}
+.social a {
+    font-size: 30px;
+}
+.facebook{
+    color: blue;
+}
+
+.instagram{
+    color: #eb1446;
+}
